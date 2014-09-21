@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hideack/evac/issues"
   },
-  "homepage": "https://github.com/hideack/evac"
+  "homepage": "https://github.com/hideack/evac",
+  "dependencies": {
+    "cheerio-httpcli": "^0.2.0"
+  }
 }
