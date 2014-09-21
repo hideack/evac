@@ -1,6 +1,6 @@
 {
   "name": "evac",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,15 @@
   },
   "author": "hideack",
   "license": "MIT",
+  "bin": {
+    "evac": "bin/evac"
+  },
   "bugs": {
     "url": "https://github.com/hideack/evac/issues"
   },
   "homepage": "https://github.com/hideack/evac",
   "dependencies": {
-    "cheerio-httpcli": "^0.2.0"
+    "cheerio-httpcli": "^0.2.0",
+    "commander": "^2.3.0"
   }
 }
