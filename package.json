@@ -1,0 +1,19 @@
+{
+  "name": "evac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hideack/evac.git"
+  },
+  "author": "hideack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hideack/evac/issues"
+  },
+  "homepage": "https://github.com/hideack/evac"
+}
