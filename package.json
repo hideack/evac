@@ -21,6 +21,7 @@
   "homepage": "https://github.com/hideack/evac",
   "dependencies": {
     "cheerio-httpcli": "^0.2.0",
-    "commander": "^2.3.0"
+    "commander": "^2.3.0",
+    "config": "^1.2.0"
   }
 }
