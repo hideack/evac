@@ -4,7 +4,7 @@
   "description": "Simple aggregator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --ui bdd --reporter spec ./spec/plugin --recursive --require ./spec/helper.js"
   },
   "repository": {
     "type": "git",
