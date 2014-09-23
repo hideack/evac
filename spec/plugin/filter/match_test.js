@@ -7,4 +7,12 @@ describe('filter plugin: match', function(){
       done();
     });
   });
+
+  it('should raise error if not match word', function(done){
+    match.filter({regexp: '\\d\\d\\d'}, "abc defg", function(err, word){
+      err.should.be.true;
+      done();
+    });
+  });
+
 });
