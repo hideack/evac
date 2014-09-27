@@ -6,3 +6,4 @@ evac
 Simple aggregator.
 
 
+[![NPM](https://nodei.co/npm/evac.png)](https://nodei.co/npm/evac/)
