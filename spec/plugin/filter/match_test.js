@@ -8,9 +8,10 @@ describe('filter plugin: match', function(){
     });
   });
 
-  it('should raise error if not match word', function(done){
+  it('should null word if not match word', function(done){
     match.filter({regexp: '\\d\\d\\d'}, "abc defg", function(err, word){
-      err.should.be.true;
+      err.should.be.false;
+      word.should.equal("");
       done();
     });
   });
