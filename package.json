@@ -29,6 +29,8 @@
     "request": "^2.44.0"
   },
   "devDependencies": {
+    "nock": "^0.48.0",
+    "here": "0.0.2",
     "chai": "^1.9.1",
     "mocha": "^1.21.4"
   }
