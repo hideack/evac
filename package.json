@@ -29,9 +29,12 @@
     "request": "^2.44.0"
   },
   "devDependencies": {
-    "nock": "^0.48.0",
-    "here": "0.0.2",
     "chai": "^1.9.1",
-    "mocha": "^1.21.4"
+    "gulp": "^3.8.8",
+    "gulp-mocha": "^1.1.0",
+    "gulp-util": "^3.0.1",
+    "here": "0.0.2",
+    "mocha": "^1.21.4",
+    "nock": "^0.48.0"
   }
 }
