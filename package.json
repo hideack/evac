@@ -26,6 +26,7 @@
     "feedparser": "^0.19.2",
     "mkdirp": "^0.5.0",
     "nconf": "^0.6.9",
+    "nodemailer": "^1.3.0",
     "request": "^2.44.0"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "gulp-util": "^3.0.1",
     "here": "0.0.2",
     "mocha": "^1.21.4",
+    "mock-nodemailer": "0.0.1",
     "nock": "^0.48.0"
   }
 }
