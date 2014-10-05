@@ -15,7 +15,7 @@ describe('input plugin: rss', function(){
       <description/>
       <title>sample</title>
       <item>
-        <link>http://www.yahoo-help.jp/app/answers/detail/p/353/a_id/40711</link>
+        <link>http://test.com/40711</link>
         <description>&lt;small&gt;テスト本文(HTMLタグ付き)&lt;/small&gt;</description>
         <title>テストタイトル</title>
         <guid isPermaLink="false">7c7efc1ada6c9342febc5302505e7eb076b4f93f</guid>
@@ -46,5 +46,14 @@ describe('input plugin: rss', function(){
       done();
     });
   });
+
+  it('should be format for output strings.', function(done){
+    rss.load({url: mockRss, format:"__description__ : __link__"}, function(err, bodys) {
+      err.should.be.false;
+      bodys[0].should.be.equal("テスト本文(HTMLタグ付き) : http://test.com/40711");
+      done();
+    });
+  });
+
 
 });
