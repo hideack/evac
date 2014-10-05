@@ -4,8 +4,8 @@ var mail = require('../../../lib/plugin/out/mail.js');
 describe('output plugin: mail', function(){
   it('should be email gets sent', function(done){
     var args = {
-      from: 'hideack99@gmail.com',
-      to: 'hideack99@gmail.com',
+      from: 'tester99@gmail.com',
+      to: 'tester99@gmail.com',
       subject: 'テストメール'
     };
 
@@ -14,6 +14,7 @@ describe('output plugin: mail', function(){
     mockMailer.expectEmail(args, done);
 
     mail.output(args, word, function(err, info){
+      err.should.be.false;
       done();
     });
   });
