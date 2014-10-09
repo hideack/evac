@@ -10,7 +10,7 @@ describe('input plugin: http post', function(){
     var args = {
       "url": mockUrl,
       "body": {
-        "json": {"auth_token": "YOUR_AUTH_TOKEN", "current": "%s"}
+        "json": {"auth_token": "YOUR_AUTH_TOKEN", "current": "%s test"}
       }
     };
 
