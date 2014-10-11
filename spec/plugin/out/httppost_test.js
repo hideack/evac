@@ -1,4 +1,4 @@
-var post = require('../../../lib/plugin/out/httpPost.js'),
+var post = require('../../../lib/plugin/out/httppost.js'),
     nock = require('nock');
 
 describe('input plugin: http post', function(){
