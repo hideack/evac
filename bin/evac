@@ -1,14 +1,23 @@
 #!/usr/bin/env node
 var program = require('commander');
 var core = require('../lib/core');
+var colors = require('colors');
+var showLogo = function() {
+  console.log("  ___  _   __  ____ _  _____".cyan);
+  console.log(" / _ \\| | / / / __ `/ / ___/".cyan);
+  console.log("/  __/| |/ / / /_/ / / /__".cyan);
+  console.log("\\___/ |___/  \\__,_/  \\___/".cyan);
+}
 
 var main = function() {
   program
     .version(require('../package.json').version)
+    .option('-v, --verbose', 'Verbose mode.')
     .usage('[options] <recipe file ...>')
     .parse(process.argv);
 
   if (program.args.length == 0) {
+    showLogo();
     program.help();
     process.exit(0);
   }
