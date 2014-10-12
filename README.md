@@ -22,6 +22,7 @@ node.js based simple aggregator.
 - ikachan
 - mail
 - stdout
+- shell
 
 ----
 
