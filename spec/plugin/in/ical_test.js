@@ -1,4 +1,5 @@
 var ical = require('../../../lib/plugin/in/ical.js'),
+    sprintf = require("sprintf-js").sprintf,
     nock = require('nock'),
     here = require('here').here;
 
@@ -15,12 +16,12 @@ describe('input plugin: ical', function(){
       X-WR-CALNAME:evac test sample calendar
       X-WR-TIMEZONE:Asia/Tokyo
       BEGIN:VEVENT
-      DTSTART:__testdate__T235500Z
-      DTSTAMP:__testdate__T235500Z
-      CREATED:__testdate__T235500Z
-      LAST-MODIFIED:__testdate__T235500Z
+      DTSTART:__testdate__T145500Z
+      DTSTAMP:__testdate__T145500Z
+      CREATED:__testdate__T145500Z
+      LAST-MODIFIED:__testdate__T145500Z
       DTEND:__testdate__T100000Z
-      SUMMARY:meeting
+      SUMMARY:meeting summary
       ORGANIZER:hideack
       UID:abc@hideack
       DESCRIPTION:meeting
@@ -34,13 +35,15 @@ describe('input plugin: ical', function(){
     */
     ).unindent();
 
-    var icalData = testData.replace(/__testdate__/g, "20141013");
+    var date = new Date();
+    var formatDate = sprintf("%4d%02d%02d", date.getFullYear(), date.getMonth() + 1, date.getDate());
+    var icalData = testData.replace(/__testdate__/g, "" + formatDate);
     nock("http://test.com").get('/ics').reply(200, icalData);
   });
 
   it('should be able to read from iCal format file.', function(done){
     ical.load({url:"http://test.com/ics", within:24}, function(error, outputs){
-      outputs[0].should.be.equal('meeting - Tue Oct 14 2014 08:55:00 GMT+0900 (JST)');
+      outputs[0].should.match(/meeting summary -/);
       done();
     });
   });
