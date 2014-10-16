@@ -25,6 +25,7 @@
     "commander": "^2.3.0",
     "diff": "^1.0.8",
     "feedparser": "^0.19.2",
+    "ical": "^0.3.1",
     "mkdirp": "^0.5.0",
     "mysql": "^2.5.2",
     "nconf": "^0.6.9",
@@ -40,6 +41,7 @@
     "here": "0.0.2",
     "mocha": "^1.21.4",
     "mock-nodemailer": "0.0.1",
-    "nock": "^0.48.0"
+    "nock": "^0.48.0",
+    "sprintf-js": "0.0.7"
   }
 }
