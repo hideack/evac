@@ -4,7 +4,7 @@ var post = require('../../../lib/plugin/out/httppost.js'),
 describe('input plugin: http post', function(){
   var mockUrl = "http://test.com";
 
-  it('should be http post successful.', function(){
+  it('should be http post successful.', function(done){
     nock(mockUrl).post('/').reply(200);
 
     var args = {
@@ -14,6 +14,9 @@ describe('input plugin: http post', function(){
       }
     };
 
-    post.output(args, "test");
+    post.output(args, "test", function(err, output){
+      err.should.be.false;
+      done();
+    });
   });
 });
