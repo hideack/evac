@@ -2,6 +2,9 @@
 var program = require('commander');
 var core = require('../lib/core');
 var colors = require('colors');
+var glob = require('glob');
+var path = require('path');
+
 var showLogo = function() {
   console.log("  ___  _   __  ____ _  _____".cyan);
   console.log(" / _ \\| | / / / __ `/ / ___/".cyan);
@@ -15,6 +18,26 @@ var main = function() {
     .option('-v, --verbose', 'Verbose mode.')
     .usage('[options] <recipe file ...>')
     .parse(process.argv);
+
+  program.on('--help', function() {
+    var pluginDirs = ['in', 'filter', 'out'];
+    var files;
+
+    console.log("<<< Installed plugins >>>");
+
+    for(var i=0; i<pluginDirs.length; i++) {
+      var plugins = "";
+
+      files = glob.sync(__dirname + '/../lib/plugin/' + pluginDirs[i] + '/**/*.js');
+      console.log("== " + pluginDirs[i] + " ==");
+
+      for(var j=0; j<files.length; j++) {
+        plugins = plugins + "" + path.basename(files[j]) + "  ";
+      }
+
+      console.log(plugins + "\n");
+    }
+  });
 
   if (program.args.length == 0) {
     showLogo();
