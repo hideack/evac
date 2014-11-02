@@ -4,9 +4,7 @@ var notice = require('../../../lib/plugin/out/notice.js'),
 describe('output plugin: notice', function(){
   it('should be notice successful.', function(){
     var args = {
-      "settings": {
-        "title": "test-notice"
-      }
+      "title": "test-notice"
     };
 
     notice.output(args, "test", function(err, output){
