@@ -1,0 +1,4 @@
+auto: true
+server: true
+markdown: kramdown
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'config.rb', 'vendor']
