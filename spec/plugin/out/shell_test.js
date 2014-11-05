@@ -4,7 +4,7 @@ var shell = require('../../../lib/plugin/out/shell.js'),
 describe('output plugin: shell', function(){
   it('should be echo command successful.', function(done){
     var args = {
-      "command": "echo %s"
+      "command": "echo __word__"
     };
 
     shell.output(args, "test", function(err, output){
@@ -16,7 +16,7 @@ describe('output plugin: shell', function(){
 
   it('should be command fails.', function(done){
     var args = {
-      "command": "hogehoge %s"
+      "command": "hogehoge __word__"
     };
 
     shell.output(args, "test", function(err, output){
