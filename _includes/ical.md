@@ -12,7 +12,7 @@ hey hoi
 
 #### Example
 
-    {
+    "ical": {
       "url"; "http://..../foo.ics",
       "within": "6"
     }
