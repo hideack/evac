@@ -1,14 +1,17 @@
 
-### xxx
+### staticword
 
-xxx
+A text is passed as it is.
 
 #### Parameters
 
 | Name   | parameter |
-|--------|----------------------------|
-| aaa | bbb |
+|--------|------------------------------|
+| text   | Message passed to a filter.  |
 
 #### Example
 
+    "staticWord": {
+      "text": "test word."
+    }
 

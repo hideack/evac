@@ -1,14 +1,14 @@
 
 ### ical 
 
-hey hoi
+Subscription in iCal format.
 
 #### Parameters
 
 | Name   | parameter |
 |--------|----------------------------|
 | url    | ICS file by adding an URL. |
-| within | Find targeted plan. |
+| within | The schedule for less than n hour is searched. |
 
 #### Example
 

@@ -1,14 +1,13 @@
 
-### xxx
+### stdout
 
-xxx
+Out to stdout.
 
 #### Parameters
 
-| Name   | parameter |
-|--------|----------------------------|
-| aaa | bbb |
+none
 
 #### Example
 
+    "stdout": {}
 

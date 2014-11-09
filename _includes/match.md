@@ -1,14 +1,17 @@
 
-### xxx
+### match
 
-xxx
+This plug-in outputs the character string applicable to a regular expression. 
 
 #### Parameters
 
 | Name   | parameter |
 |--------|----------------------------|
-| aaa | bbb |
+| regexp | Regular expression. |
 
 #### Example
 
+    "match": {
+      "regexp": "\\d\\d.\\d\\s%"
+    }
 

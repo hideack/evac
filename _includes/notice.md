@@ -1,14 +1,18 @@
 
-### xxx
+### notice
 
-xxx
+
 
 #### Parameters
 
 | Name   | parameter |
 |--------|----------------------------|
-| aaa | bbb |
+| type   | Notification type.  |
+| title  | Notification title. |
 
 #### Example
 
-
+    "notice": {
+      "type": "growl",
+      "title": "テスト"
+    }

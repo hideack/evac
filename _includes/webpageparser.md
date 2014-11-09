@@ -1,14 +1,19 @@
 
-### xxx
+### webpageparser
 
-xxx
+Use CSS path to extract subscription from web page.
 
 #### Parameters
 
 | Name   | parameter |
 |--------|----------------------------|
-| aaa | bbb |
+| url    | Web page URL.              |
+| target | CSS path.                  |
 
 #### Example
 
+    "webPageParse": {
+      "url": "https://github.com/hideack/evac",
+      "target" : "#count"
+    }
 

@@ -1,14 +1,13 @@
 
-### xxx
+### through
 
-xxx
+This plugin processes nothing. 
 
 #### Parameters
 
-| Name   | parameter |
-|--------|----------------------------|
-| aaa | bbb |
+none
 
 #### Example
 
+    "through": {}
 
