@@ -1,4 +1,5 @@
 auto: true
 server: true
 markdown: kramdown
+url: http://hideack.github.io/evac/
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'config.rb', 'vendor']
