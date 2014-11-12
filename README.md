@@ -5,19 +5,57 @@ evac
 
 node.js based simple aggregator.
 
-### Plugin
-#### input
+## About
+Evac is Node.js based simple aggregator.
+
+![](http://f.st-hatena.com/images/fotolife/h/hideack/20141109/20141109154056.png?1415515265)
+
+## Installation
+
+Install with [npm](https://www.npmjs.org/package/evac):
+
+    $ npm install -g evac
+
+## evac(1)
+
+      Usage: evac [options] <recipe file ...>
+
+      Options:
+
+        -h, --help     output usage information
+        -V, --version  output the version number
+        -v, --verbose  Verbose mode.
+        -c, --cron     Cron mode.
+
+### -c, --cron
+
+According to a setup of the file passed by the argument, a job is performed periodically.
+
+Cron patterns suported here extend on the standard Unix format to support seconds digits.
+
+
+    [
+      {"*/10 * * * *": "/home/hideack/recipe/rss.js"},
+      {"0 18 * * *": "/home/hideack/recipe/news.js"}
+    ]
+
+### -v, --verbose
+
+An execution result is displayed in detail.
+
+## Plugins
+### input
 - mysql
 - rss
 - static word
 - web page parser
 
-#### filter
+### filter
 - diff
 - match
 - through
 
-#### output
+### output
 - http post
 - ikachan
 - mail
