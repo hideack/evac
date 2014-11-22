@@ -4,7 +4,7 @@
   "description": "Node.js based simple aggregator. - http://bit.ly/evac_aggregator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --ui bdd --reporter spec ./spec/plugin --recursive --require ./spec/helper.js"
+    "test": "mocha --ui bdd --reporter spec ./test/plugin --recursive --require ./test/helper.js"
   },
   "repository": {
     "type": "git",
