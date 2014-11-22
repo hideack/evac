@@ -63,3 +63,7 @@ title: Plugins
 
 {% capture stdout %} {% include stdout.md %} {% endcapture %} {{ stdout | markdownify }}
 
+----
+
+{% capture yo %} {% include yo.md %} {% endcapture %} {{ yo | markdownify }}
+
