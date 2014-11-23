@@ -61,6 +61,8 @@ An execution result is displayed in detail.
 - mail
 - stdout
 - shell
+- yo
+- pushbullet
 
 ## Sample
 
