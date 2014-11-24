@@ -67,3 +67,7 @@ title: Plugins
 
 {% capture yo %} {% include yo.md %} {% endcapture %} {{ yo | markdownify }}
 
+----
+
+{% capture pushbullet %} {% include pushbullet.md %} {% endcapture %} {{ pushbullet | markdownify }}
+
