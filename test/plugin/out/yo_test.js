@@ -16,7 +16,7 @@ describe('output plugin: yo', function(){
   });
 
   it('should be Yo fail.', function(done){
-    nock("http://api.justyo.co").post('/yoall/').reply(201);
+    nock("http://api.justyo.co").post('/yoall/').reply(400);
 
     var args = {
       "api_token": "foobar"
