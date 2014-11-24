@@ -23,7 +23,7 @@ describe('output plugin: yo', function(){
     };
 
     yo.output(args, "test", function(err, output){
-      err.should.be.not.false;
+      err.should.be.true;
       done();
     });
   });
