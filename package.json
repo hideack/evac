@@ -27,6 +27,7 @@
     "diff": "^1.0.8",
     "feedparser": "^0.19.2",
     "glob": "^4.0.6",
+    "googleanalytics": "^0.3.6",
     "ical": "^0.3.1",
     "itunesconnect": "0.0.1",
     "jsonschema": "^1.0.0",
