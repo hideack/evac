@@ -2,6 +2,7 @@ evac
 ================
 
 [![Build Status](https://travis-ci.org/hideack/evac.svg?branch=master)](https://travis-ci.org/hideack/evac)
+[![npm version](https://badge.fury.io/js/evac.svg)](http://badge.fury.io/js/evac)
 
 node.js based simple aggregator.
 
