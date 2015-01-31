@@ -1,6 +1,6 @@
 {
   "name": "evac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js based simple aggregator. - http://bit.ly/evac_aggregator",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "cron": "^1.0.5",
     "diff": "^1.0.8",
     "feedparser": "^0.19.2",
+    "ga-analytics": "0.0.7",
     "glob": "^4.0.6",
     "ical": "^0.3.1",
     "itunesconnect": "0.0.1",
