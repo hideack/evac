@@ -50,6 +50,7 @@ An execution result is displayed in detail.
 - rss
 - static word
 - web page parser
+- google analytics
 
 ### filter
 - diff
