@@ -41,8 +41,7 @@ describe('evac tasks', function(){
       });
     });
 
-
-    it('should be raise error with invalid recipe.', function(done){
+    it.skip('should be raise error with invalid recipe.', function(done){
       var recipe = {
         "inin": {
           "staticWord": {
@@ -56,6 +55,5 @@ describe('evac tasks', function(){
         done();
       });
     });
-
   });
 });
