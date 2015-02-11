@@ -28,6 +28,7 @@ Install with [npm](https://www.npmjs.org/package/evac):
         -V, --version  output the version number
         -v, --verbose  Verbose mode.
         -c, --cron     Cron mode.
+        -p, --path [path]  Plugin path.
 
 ### -c, --cron
 
@@ -52,6 +53,9 @@ An execution result is displayed in detail.
 - static word
 - web page parser
 - google analytics
+- ical
+- iTunes connect
+- stdin
 
 ### filter
 - diff
