@@ -17,6 +17,7 @@ var main = function() {
     .version(require('../package.json').version)
     .option('-v, --verbose', 'Verbose mode.')
     .option('-c, --cron', 'Cron mode.')
+    .option('-p, --path [path]', 'Plugin path.')
     .usage('[options] <recipe file ...>')
     .parse(process.argv);
 
