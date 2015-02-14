@@ -1,6 +1,23 @@
 var core = require('../lib/core');
+var util = require('../lib/util');
 
 describe('evac tasks', function(){
+  describe('parseRecipeFile()', function() {
+    it('should be parse recipe file. (JSON format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/sample.json', function(err, config){
+        err.should.be.false;
+        done();
+      });
+    });
+
+    it('should be parse recipe file. (YAML format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/sample.yaml', function(err, config){
+        err.should.be.false;
+        done();
+      });
+    });
+  });
+
   describe('parseRecipeJson()', function(){
     it('should be parse recipe.', function(done){
       var recipe = {
