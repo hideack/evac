@@ -6,6 +6,7 @@ describe('evac tasks', function(){
     it('should be parse recipe file. (JSON format)', function(done){
       util.parseSettingFile(__dirname + '/fixtures/recipe/sample.json', function(err, config){
         err.should.be.false;
+        config.out.stdout.should.be.a('object');
         done();
       });
     });
@@ -13,6 +14,7 @@ describe('evac tasks', function(){
     it('should be parse recipe file. (YAML format)', function(done){
       util.parseSettingFile(__dirname + '/fixtures/recipe/sample.yaml', function(err, config){
         err.should.be.false;
+        config.out.stdout.should.be.a('object');
         done();
       });
     });
