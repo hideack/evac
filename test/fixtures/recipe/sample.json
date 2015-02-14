@@ -1,0 +1,13 @@
+{
+  "in": {
+    "staticWord": {
+      "text": "test word."
+    }
+  },
+  "filter": {
+    "through": {}
+  },
+  "out": {
+    "stdout": {}
+  }
+}
