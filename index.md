@@ -24,6 +24,7 @@ Install with [npm](https://www.npmjs.org/package/evac):
         -V, --version  output the version number
         -v, --verbose  Verbose mode.
         -c, --cron     Cron mode.
+        -p, --path [path]  Plugin path.
 
 ### -c, --cron
 
@@ -40,6 +41,10 @@ Cron patterns suported here extend on the standard Unix format to support second
 ### -v, --verbose
 
 An execution result is displayed in detail.
+
+### -p, --path
+
+In order to use ```-v``` option to set the include path.
 
 ----
 
