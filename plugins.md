@@ -7,6 +7,10 @@ title: Plugins
 
 ## Input plugins
 
+{% capture stdin %} {% include stdin.md %} {% endcapture %} {{ stdin | markdownify }}
+
+----
+
 {% capture ical %} {% include ical.md %} {% endcapture %} {{ ical | markdownify }}
 
 ----
