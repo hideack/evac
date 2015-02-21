@@ -31,4 +31,22 @@ describe('output plugin: slack', function(){
       done();
     });
   });
+
+  it('should be format text.', function(done){
+    nock(mockUrl).post('/services/1/2/3').reply(200);
+
+    var args = {
+      "url": mockUrl,
+      "text": "world",
+      "format": "Hello __word__"
+    };
+
+    slack.output(args, "world", function(err, output){
+      err.should.be.false;
+      output.should.be.equal("Hello world");
+      done();
+    });
+  });
+
+
 });
