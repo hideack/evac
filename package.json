@@ -1,6 +1,6 @@
 {
   "name": "evac",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Node.js based simple aggregator. - http://bit.ly/evac_aggregator",
   "main": "index.js",
   "scripts": {
