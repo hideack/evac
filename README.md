@@ -70,6 +70,7 @@ An execution result is displayed in detail.
 - shell
 - yo
 - pushbullet
+- slack
 
 ## Sample
 
