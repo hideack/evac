@@ -75,3 +75,7 @@ title: Plugins
 
 {% capture pushbullet %} {% include pushbullet.md %} {% endcapture %} {{ pushbullet | markdownify }}
 
+----
+
+{% capture slack %} {% include slack.md %} {% endcapture %} {{ slack | markdownify }}
+
