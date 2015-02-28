@@ -56,6 +56,7 @@ An execution result is displayed in detail.
 - ical
 - iTunes connect
 - stdin
+- textfile
 
 ### filter
 - diff
