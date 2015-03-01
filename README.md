@@ -72,6 +72,7 @@ An execution result is displayed in detail.
 - yo
 - pushbullet
 - slack
+- screenshot
 
 ## Sample
 
