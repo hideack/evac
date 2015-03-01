@@ -29,3 +29,4 @@ node_modules
 *.swp
 recipe/
 tmp/*
+test/tmp/*.png
