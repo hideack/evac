@@ -7,7 +7,7 @@ describe('input plugin: webpageparse', function(){
   var mockSite2 = "http://test2.hideack";
 
   beforeEach(function() {
-    var testBody = here(/*
+    var testBody1 = here(/*
     <html>
      <head>
       <title>PHP Test</title>
@@ -19,8 +19,20 @@ describe('input plugin: webpageparse', function(){
     */
     ).unindent();
 
-    nock(mockSite1).get('/').reply(200, testBody);
-    nock(mockSite2).get('/').reply(200, testBody);
+    var testBody2 = here(/*
+    <html>
+     <head>
+      <title>PHP Test</title>
+     </head>
+     <body>
+       <p id="evac">hogemoge</p>
+     </body>
+    </html>
+    */
+    ).unindent();
+
+    nock(mockSite1).get('/').reply(200, testBody1);
+    nock(mockSite2).get('/').reply(200, testBody2);
   });
 
   it('should be get to HTTP contents.', function(done){
@@ -33,7 +45,7 @@ describe('input plugin: webpageparse', function(){
   it('should be get to any HTTP contents.', function(done){
     parser.load({url:["http://test1.hideack/", "http://test2.hideack/"], target:"#evac"}, function(error, outputs){
       error.should.be.false;
-      outputs.should.deep.equal(["foobar", "foobar"]);
+      outputs.should.deep.equal(["foobar", "hogemoge"]);
       done();
     });
   });
