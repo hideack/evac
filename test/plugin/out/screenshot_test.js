@@ -2,7 +2,7 @@ var screenshot = require('../../../lib/plugin/out/screenshot.js');
 var fs = require('fs');
 
 describe('output plugin: screenshot', function(){
-  this.timeout(10000);
+  this.timeout(30000);
 
   var url = "http://www.yahoo.co.jp";
   var args = {
