@@ -50,5 +50,11 @@ describe('input plugin: webpageparse', function(){
     });
   });
 
+  it('should be get to any HTTP contents with behind params.', function(done){
+    parser.load({url:["http://test1.hideack/", "http://test2.hideack/"], target:"#evac", behind: 1000}, function(error, outputs){
+      error.should.be.false;
+      done();
+    });
+  });
 });
 
