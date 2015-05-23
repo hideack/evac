@@ -42,6 +42,42 @@ describe('evac tasks', function(){
       });
     });
 
+    it('should be parse multiple recipe.', function(done){
+      var recipe = [
+        {
+          "in": {
+            "staticWord": {
+              "text": "1st recipe."
+            }
+          },
+          "filter": {
+            "through": {}
+          },
+          "out": {
+            "stdout": {}
+          }
+        },
+        {
+          "in": {
+            "staticWord": {
+              "text": "2nd recipe."
+            }
+          },
+          "filter": {
+            "through": {}
+          },
+          "out": {
+            "stdout": {}
+          }
+        }
+      ];
+
+      core.parseRecipeJson(recipe, function(err, message){
+        err.should.be.false;
+        done();
+      });
+    });
+
     it('should be parse abbreviated recipe.', function(done){
       var recipe = {
         "in": {
