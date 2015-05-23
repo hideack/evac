@@ -1,0 +1,28 @@
+[
+  {
+    "in": {
+      "staticWord": {
+        "text": "Hello, evac."
+      }
+    },
+    "filter": {
+      "through": {}
+    },
+    "out": {
+      "stdout": {}
+    }
+  },
+  {
+    "in": {
+      "staticWord": {
+        "text": "Hello, world."
+      }
+    },
+    "filter": {
+      "through": {}
+    },
+    "out": {
+      "stdout": {}
+    }
+  }
+]

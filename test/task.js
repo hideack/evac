@@ -18,6 +18,25 @@ describe('evac tasks', function(){
         done();
       });
     });
+
+    it('should be parse recipe file. (Multiple recipe / JSON format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.json', function(err, config){
+        err.should.be.false;
+        config.should.be.instanceof(Array);
+        config[0].out.stdout.should.be.a('object');
+        done();
+      });
+    });
+
+    it('should be parse recipe file. (Multiple recipe / YAML format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.yaml', function(err, config){
+        err.should.be.false;
+        config.should.be.instanceof(Array);
+        config[0].out.stdout.should.be.a('object');
+        done();
+      });
+    });
+
   });
 
   describe('parseRecipeJson()', function(){
@@ -35,6 +54,29 @@ describe('evac tasks', function(){
           "stdout": {}
         }
       };
+
+      core.parseRecipeJson(recipe, function(err, message){
+        err.should.be.false;
+        done();
+      });
+    });
+
+    it('should be parse multiple recipe.', function(done){
+      var recipe = [
+        {
+          "in": {
+            "staticWord": {
+              "text": "1st recipe."
+            }
+          },
+          "filter": {
+            "through": {}
+          },
+          "out": {
+            "stdout": {}
+          }
+        }
+      ];
 
       core.parseRecipeJson(recipe, function(err, message){
         err.should.be.false;
