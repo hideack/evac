@@ -18,6 +18,23 @@ describe('evac tasks', function(){
         done();
       });
     });
+
+    it('should be parse recipe file. (Multiple recipe / JSON format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.json', function(err, config){
+        err.should.be.false;
+        config.should.be.instanceof(Array);
+        done();
+      });
+    });
+
+    it('should be parse recipe file. (Multiple recipe / YAML format)', function(done){
+      util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.yaml', function(err, config){
+        err.should.be.false;
+        config.should.be.instanceof(Array);
+        done();
+      });
+    });
+
   });
 
   describe('parseRecipeJson()', function(){
