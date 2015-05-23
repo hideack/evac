@@ -56,19 +56,6 @@ describe('evac tasks', function(){
           "out": {
             "stdout": {}
           }
-        },
-        {
-          "in": {
-            "staticWord": {
-              "text": "2nd recipe."
-            }
-          },
-          "filter": {
-            "through": {}
-          },
-          "out": {
-            "stdout": {}
-          }
         }
       ];
 
