@@ -23,6 +23,7 @@ describe('evac tasks', function(){
       util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.json', function(err, config){
         err.should.be.false;
         config.should.be.instanceof(Array);
+        config[0].out.stdout.should.be.a('object');
         done();
       });
     });
@@ -31,6 +32,7 @@ describe('evac tasks', function(){
       util.parseSettingFile(__dirname + '/fixtures/recipe/multi-sample.yaml', function(err, config){
         err.should.be.false;
         config.should.be.instanceof(Array);
+        config[0].out.stdout.should.be.a('object');
         done();
       });
     });
