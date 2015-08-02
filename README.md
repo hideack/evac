@@ -57,6 +57,7 @@ An execution result is displayed in detail.
 - iTunes connect
 - stdin
 - textfile
+- battery
 
 ### filter
 - diff
