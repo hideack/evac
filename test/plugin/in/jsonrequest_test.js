@@ -1,8 +1,8 @@
-var client = require('../../../lib/plugin/in/client.js'),
+var jsonRequest = require('../../../lib/plugin/in/jsonrequest.js'),
     nock = require('nock'),
     here = require('here').here;
 
-describe('input plugin: client', function(){
+describe('input plugin: json request', function(){
   var mockApiUrl = "http://test.com/json";
 
   beforeEach(function(done) {
@@ -33,7 +33,7 @@ describe('input plugin: client', function(){
   });
 
   it('should be parse JSON API', function(done){
-    client.load({url: mockApiUrl, targetProperty:"data.counts.followed_by", json: true}, function(err, responses) {
+    jsonRequest.load({url: mockApiUrl, targetProperty:"data.counts.followed_by"}, function(err, responses) {
       err.should.be.false;
       responses[0].should.be.equal(777);
       done();
