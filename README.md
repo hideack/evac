@@ -59,6 +59,7 @@ An execution result is displayed in detail.
 - stdin
 - textfile
 - battery
+- json client
 
 ### filter
 - diff
