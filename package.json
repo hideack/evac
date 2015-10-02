@@ -37,7 +37,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.10.3",
     "mysql": "^2.8.0",
-    "nconf": "^0.7.1",
+    "nconf": "0.8.1",
     "node-notifier": "^4.2.3",
     "nodemailer": "^1.4.0",
     "pushbullet": "^1.4.3",
