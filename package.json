@@ -55,7 +55,7 @@
     "here": "0.0.2",
     "mocha": "1.21.5",
     "mock-nodemailer": "0.0.1",
-    "nock": "0.48.2",
+    "nock": "2.13.0",
     "sprintf-js": "0.0.7"
   }
 }

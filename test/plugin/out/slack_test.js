@@ -2,10 +2,11 @@ var slack = require('../../../lib/plugin/out/slack.js'),
     nock = require('nock');
 
 describe('output plugin: slack', function(){
+  var mockDomain = "https://hooks.slack.com";
   var mockUrl = "https://hooks.slack.com/services/1/2/3";
 
   it('should be successful call to slack incomming API.', function(done){
-    nock(mockUrl).post('/services/1/2/3').reply(200);
+    nock(mockDomain).post('/services/1/2/3').reply(200);
 
     var args = {
       "url": mockUrl,
@@ -19,7 +20,7 @@ describe('output plugin: slack', function(){
   });
 
   it('should be fail call to slack incoming API.', function(done){
-    nock(mockUrl).post('/services/1/2/3').reply(500);
+    nock(mockDomain).post('/services/1/2/3').reply(500);
 
     var args = {
       "url": mockUrl,
@@ -33,7 +34,7 @@ describe('output plugin: slack', function(){
   });
 
   it('should be format text.', function(done){
-    nock(mockUrl).post('/services/1/2/3').reply(200);
+    nock(mockDomain).post('/services/1/2/3').reply(200);
 
     var args = {
       "url": mockUrl,
