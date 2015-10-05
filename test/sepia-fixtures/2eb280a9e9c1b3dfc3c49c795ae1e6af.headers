@@ -1,0 +1,14 @@
+{
+  "timeout": true,
+  "time": 0,
+  "url": "https://ssl.google-analytics.com:443/collect",
+  "request": {
+    "method": "POST",
+    "headers": {
+      "User-Agent": "GAERbot/0.11.0 (+https://github.com/t32k/gaer)",
+      "host": "ssl.google-analytics.com",
+      "content-type": "application/x-www-form-urlencoded",
+      "content-length": 115
+    }
+  }
+}
