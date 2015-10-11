@@ -44,6 +44,7 @@
     "pushbullet": "1.4.3",
     "request": "2.64.0",
     "step": "0.0.6",
+    "tunnel-ssh": "^2.0.0",
     "underscore": "1.8.3",
     "webshot": "0.16.0",
     "winston": "1.1.0"
