@@ -42,7 +42,7 @@
     "node-notifier": "4.3.1",
     "nodemailer": "1.8.0",
     "pushbullet": "1.4.3",
-    "request": "2.64.0",
+    "request": "2.65.0",
     "step": "0.0.6",
     "underscore": "1.8.3",
     "webshot": "0.16.0",
