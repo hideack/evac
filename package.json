@@ -22,7 +22,7 @@
   "dependencies": {
     "battery-level": "2.0.0",
     "byline": "4.2.1",
-    "cheerio-httpcli": "0.3.3",
+    "cheerio-httpcli": "0.3.4",
     "colors": "1.1.2",
     "commander": "2.9.0",
     "cron": "1.0.9",
