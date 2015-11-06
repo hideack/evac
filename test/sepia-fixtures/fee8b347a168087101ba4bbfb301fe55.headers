@@ -1,0 +1,45 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+    "connection": "close",
+    "content-disposition": "attachment; filename=json.json",
+    "content-length": "814421",
+    "content-type": "application/json;charset=utf-8",
+    "date": "Fri, 06 Nov 2015 07:08:05 GMT",
+    "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+    "last-modified": "Fri, 06 Nov 2015 07:08:05 GMT",
+    "pragma": "no-cache",
+    "server": "tsa_m",
+    "set-cookie": [
+      "lang=en; Path=/",
+      "guest_id=v1%3A144679368570231598; Domain=.twitter.com; Path=/; Expires=Sun, 05-Nov-2017 07:08:05 UTC"
+    ],
+    "status": "200 OK",
+    "strict-transport-security": "max-age=631138519",
+    "x-access-level": "read",
+    "x-connection-hash": "5515d5bd0eb4eee5190e61248cd7707e",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-rate-limit-limit": "15",
+    "x-rate-limit-remaining": "14",
+    "x-rate-limit-reset": "1446794585",
+    "x-response-time": "305",
+    "x-transaction": "c34c4e0de60147b3",
+    "x-twitter-response-tags": "BouncerCompliant",
+    "x-xss-protection": "1; mode=block"
+  },
+  "url": "https://api.twitter.com:443/1.1/statuses/home_timeline.json?include_entities=true&count=1000",
+  "time": 1028,
+  "request": {
+    "method": "get",
+    "headers": {
+      "Accept": "*/*",
+      "Connection": "close",
+      "User-Agent": "node-twitter/1.2.5",
+      "host": "api.twitter.com",
+      "Authorization": "OAuth oauth_consumer_key=\"givhDNvSXmO2PEZ531qSONHkl\",oauth_nonce=\"7ce584a15b734fa89239969cf47dc1c7\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1446793685\",oauth_token=\"4124095933-hbENpvfjqTcYvE1sYjWsw5DIjdKpqI5fAVwLlsg\",oauth_version=\"1.0\",oauth_signature=\"wnlpoxu6ryJ9cuFOnO%2Bq7f9yq84%3D\"",
+      "content-length": 0
+    }
+  }
+}
