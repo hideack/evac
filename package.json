@@ -51,7 +51,7 @@
     "winston": "2.1.0"
   },
   "devDependencies": {
-    "chai": "3.4.0",
+    "chai": "3.4.1",
     "here": "0.0.2",
     "mocha": "2.3.3",
     "mock-nodemailer": "0.0.1",
