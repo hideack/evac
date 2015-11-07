@@ -1,6 +1,6 @@
 {
   "name": "evac",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "Node.js based simple aggregator. - http://bit.ly/evac_aggregator",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,7 @@
     "request": "2.65.0",
     "step": "0.0.6",
     "tunnel-ssh": "^2.0.0",
+    "twitter": "^1.2.5",
     "underscore": "1.8.3",
     "webshot": "0.16.0",
     "winston": "2.0.1"
