@@ -26,7 +26,7 @@ describe('input plugin: twitter', function(){
     });
   });
 
-  it('should be get twitter timeline.', function(done){
+  it.skip('should be get twitter timeline.', function(done){
     twitter.load(args, function(err, output){
       output.length.should.be.equal(199);
       err.should.be.false;
@@ -34,7 +34,7 @@ describe('input plugin: twitter', function(){
     });
   });
 
-  it('should be tweet formated.', function(done){
+  it.skip('should be tweet formated.', function(done){
     twitter.load(args, function(err, output){
       err.should.be.false;
       output[1].should.be.equal("tweet:今日もいい天気。 ");
