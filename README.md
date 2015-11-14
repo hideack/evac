@@ -58,13 +58,16 @@ An execution result is displayed in detail.
 - iTunes connect
 - stdin
 - textfile
-- battery
 - json client
+- twitter
 
 ### filter
 - diff
 - match
 - through
+- request
+- condition
+- sleep
 
 ### output
 - http post
