@@ -48,7 +48,7 @@
     "twitter": "^1.2.5",
     "underscore": "1.8.3",
     "webshot": "0.16.0",
-    "winston": "2.1.0"
+    "winston": "2.1.1"
   },
   "devDependencies": {
     "chai": "3.4.1",
