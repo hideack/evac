@@ -129,7 +129,7 @@ describe('evac tasks', function(){
         }
       };
 
-      core.appendPluginPath("/Users/usr0600170/pj/private/evac/test/fixtures/sample_plugins");
+      core.appendPluginPath(__dirname + "/fixtures/sample_plugins");
 
       core.parseRecipeJson(recipe, function(err, message){
         err.should.be.false;
