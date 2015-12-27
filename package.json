@@ -20,7 +20,6 @@
   },
   "homepage": "http://bit.ly/evac_aggregator",
   "dependencies": {
-    "battery-level": "2.0.0",
     "byline": "4.2.1",
     "cheerio-httpcli": "0.3.8",
     "colors": "1.1.2",
@@ -44,6 +43,7 @@
     "pushbullet": "1.4.3",
     "request": "2.67.0",
     "step": "0.0.6",
+    "string-format": "^0.5.0",
     "tunnel-ssh": "^2.0.0",
     "twitter": "^1.2.5",
     "underscore": "1.8.3",
