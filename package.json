@@ -29,7 +29,7 @@
     "feedparser": "1.1.4",
     "ga-analytics": "0.0.7",
     "gaer": "^0.11.0",
-    "glob": "6.0.2",
+    "glob": "6.0.3",
     "ical": "0.4.0",
     "itunesconnect": "0.2.0",
     "js-yaml": "3.4.6",
