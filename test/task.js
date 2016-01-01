@@ -116,5 +116,25 @@ describe('evac tasks', function(){
         done();
       });
     });
+
+    it('should be add plugin path.', function(done) {
+      var recipe = {
+        "in": {
+          "staticWord": {
+            "text": "test word."
+          }
+        },
+        "out": {
+          "outside": {}
+        }
+      };
+
+      core.appendPluginPath(__dirname + "/fixtures/sample_plugins");
+
+      core.parseRecipeJson(recipe, function(err, message){
+        err.should.be.false;
+        done();
+      });
+    });
   });
 });
