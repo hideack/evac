@@ -47,7 +47,7 @@
     "tunnel-ssh": "^2.0.0",
     "twitter": "^1.2.5",
     "underscore": "1.8.3",
-    "webshot": "0.16.0",
+    "webshot": "0.17.0",
     "winston": "2.1.1"
   },
   "devDependencies": {
