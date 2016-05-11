@@ -32,7 +32,7 @@
     "glob": "7.0.3",
     "ical": "0.5.0",
     "itunesconnect": "0.2.0",
-    "js-yaml": "3.6.0",
+    "js-yaml": "3.6.1",
     "jsonschema": "1.1.0",
     "mkdirp": "0.5.1",
     "moment": "2.13.0",
