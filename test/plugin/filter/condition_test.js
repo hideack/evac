@@ -2,9 +2,16 @@ var condition = require('../../../lib/plugin/filter/condition.js');
 
 describe('filter plugin: condition', function(){
   describe('Passed simple condition', function(){
-    it('should throuw input value if match condition.', function(done){
+    it('should throuw input numeric value if match condition.', function(done){
       condition.filter({'rule': '<5'}, "1", function(err, word){
         word.should.equal("1");
+        done();
+      });
+    });
+
+    it('should throuw input string value if match condition.', function(done){
+      condition.filter({'rule': '.length < 5'}, "abc", function(err, word){
+        word.should.equal("abc");
         done();
       });
     });
