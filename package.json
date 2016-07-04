@@ -35,7 +35,7 @@
     "js-yaml": "3.6.1",
     "jsonschema": "1.1.0",
     "mkdirp": "0.5.1",
-    "moment": "2.13.0",
+    "moment": "2.14.1",
     "mysql": "2.11.1",
     "nconf": "0.8.4",
     "node-notifier": "4.6.0",
