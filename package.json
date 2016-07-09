@@ -41,7 +41,7 @@
     "node-notifier": "4.6.0",
     "nodemailer": "2.4.2",
     "pushbullet": "1.4.3",
-    "request": "2.72.0",
+    "request": "2.73.0",
     "step": "0.0.6",
     "string-format": "^0.5.0",
     "tunnel-ssh": "^2.0.0",
