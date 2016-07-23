@@ -44,7 +44,7 @@
     "request": "2.73.0",
     "step": "0.0.6",
     "string-format": "^0.5.0",
-    "tunnel-ssh": "^2.0.0",
+    "tunnel-ssh": "^2.1.1",
     "twitter": "^1.2.5",
     "underscore": "1.8.3",
     "webshot": "0.18.0",
