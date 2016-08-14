@@ -40,7 +40,7 @@ describe('input plugin: rss', function(){
   });
 
   it('should be able to read from rss2.0', function(done){
-    rss.load({url: mockRss}, function(err, bodys) {
+    rss.load({url: mockRss, forceParse:true}, function(err, bodys) {
       err.should.be.false;
       bodys[0].should.be.equal("テスト本文(HTMLタグ付き)");
       done();
@@ -48,7 +48,7 @@ describe('input plugin: rss', function(){
   });
 
   it('should be format for output strings.', function(done){
-    rss.load({url: mockRss, format:"__description__ : __link__"}, function(err, bodys) {
+    rss.load({url: mockRss, format:"__description__ : __link__", forceParse:true}, function(err, bodys) {
       err.should.be.false;
       bodys[0].should.be.equal("テスト本文(HTMLタグ付き) : http://test.com/40711");
       done();
