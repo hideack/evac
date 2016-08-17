@@ -1,11 +1,11 @@
-var sepia = require('sepia'),
-    path = require('path'),
+var path = require('path'),
     searchrank = require('../../../lib/plugin/in/searchrank.js');
-
-sepia.fixtureDir(path.join(process.cwd(), 'test', 'sepia-fixtures'));
 
 describe('input plugin: searchrank', function(){
   it('should be get search rank.', function(done){
+    var sepia = require('sepia');
+    sepia.fixtureDir(path.join(process.cwd(), 'test', 'sepia-fixtures'));
+
     var args = {
       "key": "AIzaSyAiGaxucgsfv6oSQSf37vZEEtJyYW_N6dg",   // now disable.
       "cx": "017750037986278266736:tbinzf9dwoi",
