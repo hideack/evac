@@ -1,0 +1,21 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "expires": "Wed, 17 Aug 2016 06:45:24 GMT",
+    "date": "Wed, 17 Aug 2016 06:45:24 GMT",
+    "cache-control": "private, max-age=0, must-revalidate, no-transform",
+    "etag": "\"ZK6WcJ2_cdL-1Kol5cpaPQsD0mI/OvK6KaM9AlpTunw6ukrbQtXTTF8\"",
+    "vary": "Origin, X-Origin",
+    "content-type": "application/json; charset=UTF-8",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "content-length": "26303",
+    "server": "GSE",
+    "alternate-protocol": "443:quic",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"35,34,33,32,31,30\""
+  },
+  "url": "https://www.googleapis.com/customsearch/v1?q=%E3%82%88%E3%81%97%E3%81%96%E3%82%8F%E7%AA%AF&start=1&lr=lang_ja&num=10&key=AIzaSyAiGaxucgsfv6oSQSf37vZEEtJyYW_N6dg&cx=017750037986278266736%3Atbinzf9dwoi",
+  "time": 934,
+  "request": {}
+}
