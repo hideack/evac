@@ -3,7 +3,7 @@ var path = require('path'),
 
 describe('input plugin: searchrank', function(){
   it('should be get search rank.', function(done){
-    var sepia = require('sepia');
+    var sepia = require('../../util/sepia');
     sepia.fixtureDir(path.join(process.cwd(), 'test', 'sepia-fixtures'));
 
     var args = {
@@ -15,9 +15,11 @@ describe('input plugin: searchrank', function(){
       "word": ["よしざわ窯"]
     };
 
+    sepia.enable();
     searchrank.load(args, function(err, outputs){
       err.should.be.false;
       outputs[0].should.be.equal("よしざわ窯 =  3");
+      sepia.disable();
       done();
     });
   });
