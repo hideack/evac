@@ -1,9 +1,6 @@
-var sepia = require('sepia'),
-    twitter = require('../../../lib/plugin/in/twitter.js'),
+var twitter = require('../../../lib/plugin/in/twitter.js'),
     fs = require('fs'),
     path = require('path');
-
-sepia.fixtureDir(path.join(process.cwd(), 'test', 'sepia-fixtures'));
 
 describe('input plugin: twitter', function(){
   var args = {

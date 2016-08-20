@@ -1,0 +1,451 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - よしざわ窯",
+    "totalResults": "7010",
+    "searchTerms": "よしざわ窯",
+    "count": 10,
+    "startIndex": 1,
+    "language": "lang_ja",
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017750037986278266736:tbinzf9dwoi"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - よしざわ窯",
+    "totalResults": "7010",
+    "searchTerms": "よしざわ窯",
+    "count": 10,
+    "startIndex": 11,
+    "language": "lang_ja",
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "017750037986278266736:tbinzf9dwoi"
+   }
+  ]
+ },
+ "context": {
+  "title": "Googleランクチェッカー"
+ },
+ "searchInformation": {
+  "searchTime": 0.249044,
+  "formattedSearchTime": "0.25",
+  "totalResults": "7010",
+  "formattedTotalResults": "7,010"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "生活陶器「onthetable」",
+   "htmlTitle": "生活陶器「onthetable」",
+   "link": "http://www.yoshizawa-gama.com/",
+   "displayLink": "www.yoshizawa-gama.com",
+   "snippet": "益子焼よしざわ窯がつくる手作りの益子焼・陶器、カップ・皿・ボウル・小物を通販・販売、\nまた卸売りしています。",
+   "htmlSnippet": "益子焼\u003cb\u003eよしざわ窯\u003c/b\u003eがつくる手作りの益子焼・陶器、カップ・皿・ボウル・小物を通販・販売、\u003cbr\u003e\nまた卸売りしています。",
+   "cacheId": "NAhx7JRchzMJ",
+   "formattedUrl": "www.yoshizawa-gama.com/",
+   "htmlFormattedUrl": "www.\u003cb\u003eyoshizawa\u003c/b\u003e-gama.com/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "310",
+      "height": "163",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuwSnV5_bGcYCzDBeDQqC-Ss1u0Qb-2k-Msi6s4fnz5TtG-WE9fwJnIj2Z"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "生活陶器「onthetable」",
+      "og:description": "益子焼よしざわ窯がつくる手作りの益子焼・陶器、カップ・皿・ボウル・小物を通販・販売、また卸売りしています。",
+      "og:url": "http://www.yoshizawa-gama.com/",
+      "og:image": "http://file001.shop-pro.jp/PA01198/908/common/images/ogp.png",
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://file001.shop-pro.jp/PA01198/908/common/images/ogp.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ほっこりかわいい益子焼「よしざわ窯」が手がける生活陶器「on the table ...",
+   "htmlTitle": "ほっこりかわいい益子焼「\u003cb\u003eよしざわ窯\u003c/b\u003e」が手がける生活陶器「on the table ...",
+   "link": "https://kinarino.jp/cat2-%E7%94%9F%E6%B4%BB%E9%9B%91%E8%B2%A8/10490-%E3%81%BB%E3%81%A3%E3%81%93%E3%82%8A%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E7%9B%8A%E5%AD%90%E7%84%BC%E3%80%8C%E3%82%88%E3%81%97%E3%81%96%E3%82%8F%E7%AA%AF%E3%80%8D%E3%81%8C%E6%89%8B%E3%81%8C%E3%81%91%E3%82%8B%E7%94%9F%E6%B4%BB%E9%99%B6%E5%99%A8%E3%80%8Conthetable%E3%80%8D%E3%81%AE%E7%B4%A0%E6%95%B5%E3%81%AA%E5%99%A8%E3%81%9F%E3%81%A1",
+   "displayLink": "kinarino.jp",
+   "snippet": "2015年3月25日 ... 手に取るだけでうっとり、ほれぼれしてしまう益子焼「よしざわ窯」のお皿や器たち。\nテーブルにさりげない彩り、ニュアンスをそっと添えてくれるほっこりかわいい陶器は、\n温かみがあるマットな質感、手にした時にほっと安心するようなぽってりと ...",
+   "htmlSnippet": "2015年3月25日 \u003cb\u003e...\u003c/b\u003e 手に取るだけでうっとり、ほれぼれしてしまう益子焼「\u003cb\u003eよしざわ窯\u003c/b\u003e」のお皿や器たち。\u003cbr\u003e\nテーブルにさりげない彩り、ニュアンスをそっと添えてくれるほっこりかわいい陶器は、\u003cbr\u003e\n温かみがあるマットな質感、手にした時にほっと安心するようなぽってりと&nbsp;...",
+   "cacheId": "92MGKh5v_UIJ",
+   "formattedUrl": "https://kinarino.jp/.../10490- ほっこりかわいい益子焼「よしざわ窯」が手がける生活陶器「o...",
+   "htmlFormattedUrl": "https://kinarino.jp/.../10490- ほっこりかわいい益子焼「\u003cb\u003eよしざわ窯\u003c/b\u003e」が手がける生活陶器「o...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT7oiOKid2ploJTG3k8lxyqXy_oslXSeifXg_YSMjZXuTy1tqER-69Ks2Q"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "TOP",
+      "title": "TOP"
+     },
+     {
+      "url": "生活雑貨 まとめ",
+      "title": "生活雑貨 まとめ"
+     }
+    ],
+    "metatags": [
+     {
+      "og:locale": "ja_JP",
+      "og:site_name": "キナリノ - 暮らしを素敵に丁寧に。",
+      "og:title": "ほっこりかわいい益子焼「よしざわ窯」が手がける生活陶器「on the table」の素敵な器たち | キナリノ",
+      "og:description": "手に取るだけでうっとり、ほれぼれしてしまう益子焼「よしざわ窯」のお皿や器たち。テーブルにさりげない彩り、ニュアンスをそっと添えてくれるほっこりかわいい陶器は、温かみがあるマットな質感、手にした時にほっと安心するようなぽってりとした厚みも魅力です。電子レンジや食洗機にも使え、とっても可愛いのに丈夫で日々の生活で扱いやすいのも魅力です。今回は、そんな「よしざわ窯」が手がけるネットショップ生活陶器「on the table」で取り扱う素敵な器についてご紹介していきたいと思います。",
+      "og:image": "https://image-kinarino.ssl.k-img.com/system/press_eye_catches/000/011/324/2e2403ed9d85755d29d5f661e6cce017fc7a3f3d.jpg?1427267775",
+      "og:type": "article",
+      "og:url": "https://kinarino.jp/cat2/10490",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@kinarino",
+      "fb:app_id": "256283407892900",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "MfySrrj87In0bp1HlJu8HZXo8w6jIWziuLJp4aKiZ4G5MKvePv3W6OdEcvyRbh+AYDPEDC+/hAfb5rY5lUYdDw==",
+      "msapplication-tilecolor": "#FFFFFF",
+      "msapplication-tileimage": "https://image-kinarino.ssl.k-img.com/mstile-144x144.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://image-kinarino.ssl.k-img.com/system/press_eye_catches/000/011/324/2e2403ed9d85755d29d5f661e6cce017fc7a3f3d.jpg?1427267775"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "益子焼「よしざわ窯」って？人気の器とネットで購入できる通販サイトをご ...",
+   "htmlTitle": "益子焼「\u003cb\u003eよしざわ窯\u003c/b\u003e」って？人気の器とネットで購入できる通販サイトをご ...",
+   "link": "http://pickup.calamel.jp/22385",
+   "displayLink": "pickup.calamel.jp",
+   "snippet": "こんにちは！よむよむカラメル編集部です。４月といえば、編集部も楽しみにしている\n益子の陶器市。 今日は毎年陶器市で人気の「よしざわ窯」さんの器と、通販で購入でき\nちゃうおすすめのネットショップをご紹介します。",
+   "htmlSnippet": "こんにちは！よむよむカラメル編集部です。４月といえば、編集部も楽しみにしている\u003cbr\u003e\n益子の陶器市。 今日は毎年陶器市で人気の「\u003cb\u003eよしざわ窯\u003c/b\u003e」さんの器と、通販で購入でき\u003cbr\u003e\nちゃうおすすめのネットショップをご紹介します。",
+   "cacheId": "2QU3BAJl1CwJ",
+   "formattedUrl": "pickup.calamel.jp/22385",
+   "htmlFormattedUrl": "pickup.calamel.jp/22385",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxvQaZ39gzHWEHb12hX3UcW06hAMIU5P10VcNPDP80rg2i14waDI6FND8"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1.0,user-scalable=no",
+      "og:type": "article",
+      "og:url": "http://pickup.calamel.jp/22385",
+      "og:title": "益子焼「よしざわ窯」って？人気の器とネットで購入できる通販サイトをご紹介します。 |  よむよむカラメル",
+      "og:site_name": "よむよむカラメル",
+      "og:image": "http://calamel-wordpress.s3-ap-northeast-1.amazonaws.com/contents/uploads/2016/03/30182133/utsuwa2.jpg",
+      "fb:app_id": "939756659394236",
+      "format-detection": "telephone=no",
+      "twitter:card": "summary",
+      "twitter:site": "@calamel",
+      "twitter:creator": "@calamel",
+      "twitter:url": "http://pickup.calamel.jp/22385",
+      "twitter:title": "益子焼「よしざわ窯」って？人気の器とネットで購入できる通販サイトをご紹介します。",
+      "twitter:description": "こんにちは！よむよむカラメル編集部です。４月といえば、編集部も楽しみにしている益子の陶器市。 今日は毎年陶器市で人気の「よしざわ窯」さんの器と、通販で購入できちゃうおすすめのネットショップをご紹介します。   入荷後、即完売！ 人気の「よしざわ窯」って？ 栃木県・益子市にある窯元「よしざわ窯」さん。 [...]",
+      "twitter:image": "http://calamel-wordpress.s3-ap-northeast-1.amazonaws.com/contents/uploads/2016/03/30182133/utsuwa2.jpg",
+      "position": "1"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://calamel-wordpress.s3-ap-northeast-1.amazonaws.com/contents/uploads/2016/03/30182133/utsuwa2.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "#よしざわ窯 • Instagram photos and videos",
+   "htmlTitle": "#\u003cb\u003eよしざわ窯\u003c/b\u003e • Instagram photos and videos",
+   "link": "https://www.instagram.com/explore/tags/%E3%82%88%E3%81%97%E3%81%96%E3%82%8F%E7%AA%AF/?hl=ja",
+   "displayLink": "www.instagram.com",
+   "snippet": "Photos and videos with the hashtag 'よしざわ窯' on Instagram.",
+   "htmlSnippet": "Photos and videos with the hashtag &#39;\u003cb\u003eよしざわ窯\u003c/b\u003e&#39; on Instagram.",
+   "cacheId": "GAxUq6ySDJ8J",
+   "formattedUrl": "https://www.instagram.com/explore/tags/よしざわ窯/?hl=ja",
+   "htmlFormattedUrl": "https://www.instagram.com/explore/tags/\u003cb\u003eよしざわ窯\u003c/b\u003e/?hl=ja",
+   "pagemap": {
+    "metatags": [
+     {
+      "mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black",
+      "viewport": "width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SNSで絶大人気！売り切れ続出の「よしざわ窯」の陶器を益子陶器市で ...",
+   "htmlTitle": "SNSで絶大人気！売り切れ続出の「\u003cb\u003eよしざわ窯\u003c/b\u003e」の陶器を益子陶器市で ...",
+   "link": "http://spotlight-media.jp/article/186839555598960402",
+   "displayLink": "spotlight-media.jp",
+   "snippet": "2015年8月30日 ... 知る人ぞ知るよしざわ窯は益子焼です。 いいなぁと思っているとすぐに売り切れてしまう\nそうです。 試しにネットで検索してみましたが、売り切ればかりでした。",
+   "htmlSnippet": "2015年8月30日 \u003cb\u003e...\u003c/b\u003e 知る人ぞ知る\u003cb\u003eよしざわ窯\u003c/b\u003eは益子焼です。 いいなぁと思っているとすぐに売り切れてしまう\u003cbr\u003e\nそうです。 試しにネットで検索してみましたが、売り切ればかりでした。",
+   "cacheId": "X5NinVfO_9kJ",
+   "formattedUrl": "spotlight-media.jp/article/186839555598960402",
+   "htmlFormattedUrl": "spotlight-media.jp/article/186839555598960402",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQK4362hd523Mks9YrF-x457fJy-gYV4UerL-FshBe35Vv7uVICFz5Zzvyl"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1",
+      "twitter:app:name:iphone": "Spotlight",
+      "twitter:app:name:ipad": "Spotlight",
+      "twitter:app:name:googleplay": "Spotlight",
+      "twitter:app:android": "jp.co.cyberagent.spotlight",
+      "twitter:app:id:googleplay": "jp.co.cyberagent.spotlight",
+      "twitter:app:id:ipad": "909585120",
+      "twitter:app:id:iphone": "909585120",
+      "twitter:app:url:googleplay": "slm://article/186839555598960402",
+      "twitter:app:url:ipad": "slm://article/186839555598960402",
+      "twitter:app:url:iphone": "slm://article/186839555598960402",
+      "twitter:card": "summary_large_image",
+      "twitter:app:country": "ja-JP",
+      "twitter:description": "知る人ぞ知るよしざわ窯は益子焼です。 いいなぁと思っているとすぐに売り切れてしまうそうです。 試しにネットで検索してみましたが、売り切ればかりでした。",
+      "twitter:image:src": "https://ssl-stat.amebame.com/pub/content/8265872137/user/article/186839555598960402/14a9f2ad73b5737471d68865e3ee73a8/cached.jpg?width=600&option=crop",
+      "twitter:site": "@misterspotlight",
+      "twitter:title": "取り扱い店舗でも入荷待ち！「よしざわ窯」の陶器を益子陶器市で手に入れよう",
+      "fb:app_id": "645101595562226",
+      "fb:pages": "518958801548810",
+      "og:title": "取り扱い店舗でも入荷待ち！「よしざわ窯」の陶器を益子陶器市で手に入れよう",
+      "og:url": "http://spotlight-media.jp/article/186839555598960402",
+      "og:type": "article",
+      "og:site_name": "Spotlight",
+      "og:image": "https://ssl-stat.amebame.com/pub/content/8265872137/user/article/186839555598960402/14a9f2ad73b5737471d68865e3ee73a8/cached.jpg?width=600&option=crop",
+      "og:image:width": "600",
+      "og:description": "知る人ぞ知るよしざわ窯は益子焼です。 いいなぁと思っているとすぐに売り切れてしまうそうです。 試しにネットで検索してみましたが、売り切ればかりでした。",
+      "al:android:app_name": "Spotlight",
+      "al:android:package": "jp.co.cyberagent.spotlight",
+      "al:android:url": "slm://article/186839555598960402",
+      "al:ios:app_name": "Spotlight",
+      "al:ios:app_store_id": "909585120",
+      "al:ios:url": "slm://article/186839555598960402",
+      "aja:content_id": "186839555598960402",
+      "aja:kv.genre": "いいモノ",
+      "aja:title": "取り扱い店舗でも入荷待ち！「よしざわ窯」の陶器を益子陶器市で手に入れよう",
+      "aja:image": "https://ssl-stat.amebame.com/pub/content/8265872137/user/article/186839555598960402/14a9f2ad73b5737471d68865e3ee73a8/cached.jpg?width=600&option=crop",
+      "aja:published_date": "2015-08-30",
+      "aja:modified_date": "2015-08-30"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://ssl-stat.amebame.com/pub/content/8265872137/user/article/186839555598960402/14a9f2ad73b5737471d68865e3ee73a8/cached.jpg?width=600&option=crop"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "生活陶器「on the table」 | Facebook",
+   "htmlTitle": "生活陶器「on the table」 | Facebook",
+   "link": "https://www.facebook.com/seikatsutoki/",
+   "displayLink": "www.facebook.com",
+   "snippet": "生活陶器「on the table」. 10802 likes · 54 talking about this. 手作りの益子焼のネット\nショップ生活陶器「on the table」http://yoshizawa-toki.com/。よしざわ窯が運営してい\nます。ご質問はメールにてお願いいたします。",
+   "htmlSnippet": "生活陶器「on the table」. 10802 likes · 54 talking about this. 手作りの益子焼のネット\u003cbr\u003e\nショップ生活陶器「on the table」http://yoshizawa-toki.com/。\u003cb\u003eよしざわ窯\u003c/b\u003eが運営してい\u003cbr\u003e\nます。ご質問はメールにてお願いいたします。",
+   "cacheId": "m6mGr2k2_NQJ",
+   "formattedUrl": "https://www.facebook.com/seikatsutoki/",
+   "htmlFormattedUrl": "https://www.facebook.com/seikatsutoki/",
+   "pagemap": {
+    "metatags": [
+     {
+      "referrer": "default",
+      "al:android:app_name": "Facebook",
+      "al:android:package": "com.facebook.katana",
+      "al:android:url": "fb://page/333340576764509",
+      "al:ios:app_name": "Facebook",
+      "al:ios:app_store_id": "284882215",
+      "al:ios:url": "fb://page/?id=333340576764509"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "よしざわ窯の作業場から",
+   "htmlTitle": "\u003cb\u003eよしざわ窯\u003c/b\u003eの作業場から",
+   "link": "http://yoshigama.exblog.jp/",
+   "displayLink": "yoshigama.exblog.jp",
+   "snippet": "よしざわ窯の製作の様子。 ... 雨続きでジメジメの作業場ですが、窯の上は余熱があり、\n乾きの悪い生地を乾かすのに役立ちます♪ こちらは製作したばかりの湿った石膏型、\nこちらも窯の上で乾燥中です。 担当 オオエ. □ 春夏新作続々入荷中。試着無料＆即日\n ...",
+   "htmlSnippet": "\u003cb\u003eよしざわ窯\u003c/b\u003eの製作の様子。 ... 雨続きでジメジメの作業場ですが、窯の上は余熱があり、\u003cbr\u003e\n乾きの悪い生地を乾かすのに役立ちます♪ こちらは製作したばかりの湿った石膏型、\u003cbr\u003e\nこちらも窯の上で乾燥中です。 担当 オオエ. □ 春夏新作続々入荷中。試着無料＆即日\u003cbr\u003e\n&nbsp;...",
+   "cacheId": "8ee7ZPcEBkMJ",
+   "formattedUrl": "yoshigama.exblog.jp/",
+   "htmlFormattedUrl": "yoshigama.exblog.jp/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9bNBbiRPcHxj6hVRVSmRrIq6hvWmQ_FbiHwOzqOZWWEOAKGuE9EkYras"
+     }
+    ],
+    "metatags": [
+     {
+      "author": "kamachou",
+      "application-name": "よしざわ窯の作業場から",
+      "og:type": "blog",
+      "og:title": "よしざわ窯の作業場から",
+      "og:description": "よしざわ窯の製作の様子。",
+      "og:site_name": "よしざわ窯の作業場から",
+      "og:image": "http://pds.exblog.jp/logo/1/201209/11/47/a028894720120911162425.jpg",
+      "og:url": "http://yoshigama.exblog.jp",
+      "exblog:nickname": "kamachou",
+      "exblog:logo_url": "http://pds.exblog.jp/logo/1/201209/11/47/a028894720120911162425.jpg",
+      "fb:app_id": "423529791021606",
+      "twitter:card": "summary",
+      "twitter:site": "@Excite_blog",
+      "hatena:service_type": "blog",
+      "hatena:service_code": "excite-blog",
+      "mixi-check-robots": "noimage",
+      "msapplication-starturl": "http://yoshigama.exblog.jp/",
+      "msapplication-task": "name=エキサイトブログ;       action-uri=http://www.exblog.jp/;       icon-uri=/favicon.ico;       window-type=tab"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://pds.exblog.jp/pds/1/201608/07/47/a0288947_08585237.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "よしざわ窯 - 器一覧",
+   "htmlTitle": "\u003cb\u003eよしざわ窯\u003c/b\u003e - 器一覧",
+   "link": "http://www.pocoa.net/?mode=cate&cbid=1773524&csid=0",
+   "displayLink": "www.pocoa.net",
+   "snippet": "益子焼の窯元、よしざわ窯の器は、気兼ねなく使えるように電子レンジや食洗機に対応\nしています。お料理を一層引き立ててくれる、お家カフェにもぴったりな器です。",
+   "htmlSnippet": "益子焼の窯元、\u003cb\u003eよしざわ窯\u003c/b\u003eの器は、気兼ねなく使えるように電子レンジや食洗機に対応\u003cbr\u003e\nしています。お料理を一層引き立ててくれる、お家カフェにもぴったりな器です。",
+   "cacheId": "P6LXS2KIwMEJ",
+   "formattedUrl": "www.pocoa.net/?mode=cate&cbid=1773524&csid=0",
+   "htmlFormattedUrl": "www.pocoa.net/?mode=cate&amp;cbid=1773524&amp;csid=0",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "168",
+      "height": "168",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgxVKZb3p4TwQC74148xez3nruaE4oBntyHXXcjqD9wlq1wCqYwt-AdESL"
+     }
+    ],
+    "metatags": [
+     {
+      "author": "ナチュラル雑貨通販ぽこあぽこ",
+      "copyright": "2003 poco a poco",
+      "og:title": "よしざわ窯 - 器一覧",
+      "og:description": "益子焼の窯元、よしざわ窯の器は、気兼ねなく使えるように電子レンジや食洗機に対応しています。お料理を一層引き立ててくれる、お家カフェにもぴったりな器です。",
+      "og:url": "http://www.pocoa.net/?mode=cate&cbid=1773524&csid=0",
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://img07.shop-pro.jp/PA01118/969/product/76452021_th.jpg?cmsp_timestamp=20150712000532"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "#よしざわ窯 hashtag on Twitter",
+   "htmlTitle": "#\u003cb\u003eよしざわ窯\u003c/b\u003e hashtag on Twitter",
+   "link": "https://twitter.com/hashtag/%E3%82%88%E3%81%97%E3%81%96%E3%82%8F%E7%AA%AF",
+   "displayLink": "twitter.com",
+   "snippet": "See Tweets about #よしざわ窯 on Twitter. See what people are saying and join \nthe conversation.",
+   "htmlSnippet": "See Tweets about #\u003cb\u003eよしざわ窯\u003c/b\u003e on Twitter. See what people are saying and join \u003cbr\u003e\nthe conversation.",
+   "cacheId": "qQCfez-sOlUJ",
+   "formattedUrl": "https://twitter.com/hashtag/よしざわ窯",
+   "htmlFormattedUrl": "https://twitter.com/hashtag/\u003cb\u003eよしざわ窯\u003c/b\u003e",
+   "pagemap": {
+    "metatags": [
+     {
+      "msapplication-tileimage": "//abs.twimg.com/favicons/win8-tile-144.png",
+      "msapplication-tilecolor": "#00aced",
+      "swift-page-name": "search"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "2015 益子でよしざわ窯を大人買い！「on the table」 : A south island",
+   "htmlTitle": "2015 益子で\u003cb\u003eよしざわ窯\u003c/b\u003eを大人買い！「on the table」 : A south island",
+   "link": "http://wata1006.exblog.jp/22833518/",
+   "displayLink": "wata1006.exblog.jp",
+   "snippet": "2016年1月31日 ... まぁ、今回のお目当てはよしざわ窯を唯一取り扱ってる＋＋やまに大塚さん＋＋ 共販\nセンターとやまに大塚さんは年中無休 やまに大塚さんにいったら、よしざわ窯の陶器は\n殆ど完売状態せっかくなので、残ってる数枚の中から１枚を記念にお ...",
+   "htmlSnippet": "2016年1月31日 \u003cb\u003e...\u003c/b\u003e まぁ、今回のお目当ては\u003cb\u003eよしざわ窯\u003c/b\u003eを唯一取り扱ってる＋＋やまに大塚さん＋＋ 共販\u003cbr\u003e\nセンターとやまに大塚さんは年中無休 やまに大塚さんにいったら、\u003cb\u003eよしざわ窯\u003c/b\u003eの陶器は\u003cbr\u003e\n殆ど完売状態せっかくなので、残ってる数枚の中から１枚を記念にお&nbsp;...",
+   "cacheId": "3SKBYuxKXuoJ",
+   "formattedUrl": "wata1006.exblog.jp/22833518/",
+   "htmlFormattedUrl": "wata1006.exblog.jp/22833518/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWPhfwgDu7y4fH6Ihj51LZoYF4UEwP_ZDjwCfLfDZwfJV5HO_SWO70ss"
+     }
+    ],
+    "metatags": [
+     {
+      "author": "wata1006",
+      "application-name": "A south island",
+      "og:type": "article",
+      "og:title": "2015 益子でよしざわ窯を大人買い！「on the table」 | A south island",
+      "og:description": "里海邸でノンビリした後、大洗の街を散策明太子で有名なかねふくの工場に寄り道したり、海鮮市場でちょっとお買い物レジで働いてる女性が皆、フィリピン？とか東南ア...",
+      "og:site_name": "A south island",
+      "og:image": "http://pds.exblog.jp/pds/1/201601/31/12/d0224712_11061558.jpeg",
+      "og:url": "http://wata1006.exblog.jp/22833518/",
+      "exblog:nickname": "yocchi",
+      "exblog:logo_url": "http://pds.exblog.jp/logo/1/201103/02/12/d022471220130911080812.jpg",
+      "fb:app_id": "423529791021606",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@Excite_blog",
+      "hatena:service_type": "blog",
+      "hatena:service_code": "excite-blog",
+      "mixi-check-robots": "noimage",
+      "msapplication-starturl": "http://wata1006.exblog.jp/",
+      "msapplication-task": "name=エキサイトブログ;       action-uri=http://www.exblog.jp/;       icon-uri=/favicon.ico;       window-type=tab"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://pds.exblog.jp/pds/1/201601/31/12/d0224712_11061558.jpeg"
+     }
+    ]
+   }
+  }
+ ]
+}
