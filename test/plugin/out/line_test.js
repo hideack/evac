@@ -8,7 +8,7 @@ describe('output plugin: LINE', function(){
     sepia.enable();
 
     var args = {
-      token:'KI85dxF52KeN3A0GRNThVQDd09QA8OCLKoSjn1or1RG',
+      token:'KI85dxF52KeN3A0GRNThVQDd09QA8OCLKoSjn1or1RG',  // Now invalid token.
       format: 'REPLACE: __word__'
     };
 
