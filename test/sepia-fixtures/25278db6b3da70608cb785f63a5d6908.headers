@@ -1,0 +1,25 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Sat, 01 Oct 2016 05:07:25 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=3",
+    "x-ratelimit-limit": "1000",
+    "x-ratelimit-remaining": "999",
+    "x-ratelimit-reset": "1475302045"
+  },
+  "url": "http://notify-api.line.me:443/api/notify",
+  "time": 827,
+  "request": {
+    "method": "POST",
+    "headers": {
+      "Authorization": "Bearer KI85dxF52KeN3A0GRNThVQDd09QA8OCLKoSjn1or1RG",
+      "host": "notify-api.line.me",
+      "content-type": "application/x-www-form-urlencoded",
+      "content-length": 24
+    }
+  }
+}
