@@ -19,6 +19,7 @@ describe('input plugin: rss', function(){
         <description>&lt;small&gt;テスト本文(HTMLタグ付き)&lt;/small&gt;</description>
         <title>テストタイトル</title>
         <guid isPermaLink="false">7c7efc1ada6c9342febc5302505e7eb076b4f93f</guid>
+        <pubDate>Sat, 24 Sep 2016 23:30:00 +0900</pubDate>
       </item>
       </channel>
     </rss>
@@ -28,7 +29,7 @@ describe('input plugin: rss', function(){
     nock("http://test.com").get('/rss').reply(200, testFeedWithHtmlTag);
 
     var bufferDir = process.env.HOME + "/.evac/rss/ab25712843b6066950e54871337b229a";
-    var bufferFile = bufferDir + '/4f00f0dbefd09f4914dea2765839f3f9';
+    var bufferFile = bufferDir + '/publish-date';
 
     fs.exists(bufferFile, function(exists) {
       if (exists) {
