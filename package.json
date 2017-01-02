@@ -21,7 +21,7 @@
   "homepage": "http://bit.ly/evac_aggregator",
   "dependencies": {
     "byline": "5.0.0",
-    "cheerio-httpcli": "0.6.9",
+    "cheerio-httpcli": "0.6.10",
     "colors": "1.1.2",
     "commander": "2.9.0",
     "cron": "1.2.1",
