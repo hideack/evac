@@ -43,7 +43,7 @@
     "nodemailer": "2.7.0",
     "pushbullet": "1.4.3",
     "request": "2.79.0",
-    "step": "0.0.6",
+    "step": "1.0.0",
     "string-format": "^0.5.0",
     "tunnel-ssh": "^4.0.0",
     "twitter": "^1.2.5",
