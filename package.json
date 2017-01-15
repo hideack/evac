@@ -46,7 +46,7 @@
     "step": "1.0.0",
     "string-format": "^0.5.0",
     "tunnel-ssh": "^4.0.0",
-    "twitter": "^1.2.5",
+    "twitter": "^1.4.0",
     "underscore": "1.8.3",
     "webshot": "0.18.0",
     "winston": "2.3.0"
