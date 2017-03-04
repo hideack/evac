@@ -40,7 +40,7 @@
     "mysql": "2.13.0",
     "nconf": "0.8.4",
     "node-notifier": "5.0.2",
-    "nodemailer": "2.7.2",
+    "nodemailer": "3.1.1",
     "pushbullet": "1.4.3",
     "request": "2.80.0",
     "step": "1.0.0",
