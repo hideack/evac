@@ -36,13 +36,20 @@ describe('input plugin: ical', function(){
     ).unindent();
 
     var date = new Date();
-    var formatDate = sprintf("%4d%02d%02d", date.getFullYear(), date.getMonth() + 1, date.getDate());
+    var formatDate = sprintf("%4d%02d%02d", date.getFullYear(), date.getMonth() + 1, date.getDate() + 1);
     var icalData = testData.replace(/__testdate__/g, "" + formatDate);
     nock("http://test.com").get('/ics').reply(200, icalData);
   });
 
   it('should be able to read from iCal format file.', function(done){
-    ical.load({url:"http://test.com/ics", within:24}, function(error, outputs){
+    ical.load({url:"http://test.com/ics", within:48}, function(error, outputs){
+      outputs[0].should.match(/meeting summary -/);
+      done();
+    });
+  });
+
+  it('should be able to read from iCal format file. (with offset)', function(done){
+    ical.load({url:"http://test.com/ics", within:49, offset:1}, function(error, outputs){
       outputs[0].should.match(/meeting summary -/);
       done();
     });
