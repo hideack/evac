@@ -41,7 +41,7 @@
     "nconf": "0.8.4",
     "node-notifier": "5.1.2",
     "nodemailer": "2.7.2",
-    "pushbullet": "1.4.3",
+    "pushbullet": "2.0.0",
     "request": "2.81.0",
     "step": "1.0.0",
     "string-format": "^0.5.0",
