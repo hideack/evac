@@ -58,6 +58,6 @@
     "mock-nodemailer": "0.0.1",
     "nock": "9.0.13",
     "sepia": "^2.0.1",
-    "sprintf-js": "1.0.3"
+    "sprintf-js": "1.1.0"
   }
 }
