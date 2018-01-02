@@ -1,6 +1,8 @@
 evac
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hideack/evac.svg)](https://greenkeeper.io/)
+
 [![Circle CI](https://circleci.com/gh/hideack/evac/tree/master.svg?style=svg)](https://circleci.com/gh/hideack/evac/tree/master)
 [![npm version](https://badge.fury.io/js/evac.svg)](http://badge.fury.io/js/evac)
 ![David](https://david-dm.org/hideack/evac.svg)
