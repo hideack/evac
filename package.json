@@ -23,7 +23,7 @@
     "byline": "5.0.0",
     "cheerio-httpcli": "0.6.11",
     "colors": "1.2.1",
-    "commander": "2.13.0",
+    "commander": "2.15.1",
     "cron": "1.2.1",
     "diff": "3.2.0",
     "feedparser": "2.2.8",
