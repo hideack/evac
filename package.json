@@ -56,7 +56,7 @@
     "here": "0.0.2",
     "mocha": "5.1.0",
     "mock-nodemailer": "0.0.1",
-    "nock": "9.0.13",
+    "nock": "11.3.3",
     "sepia": "^2.0.1",
     "sprintf-js": "1.1.2"
   }
