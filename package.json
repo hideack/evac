@@ -47,7 +47,7 @@
     "string-format": "^2.0.0",
     "tunnel-ssh": "^4.1.2",
     "twitter": "^1.7.0",
-    "underscore": "1.9.0",
+    "underscore": "1.10.0",
     "webshot": "0.18.0",
     "winston": "2.4.1"
   },
