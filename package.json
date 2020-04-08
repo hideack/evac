@@ -39,7 +39,7 @@
     "moment": "2.22.0",
     "mysql": "2.13.0",
     "nconf": "0.8.4",
-    "node-notifier": "5.2.1",
+    "node-notifier": "7.0.0",
     "nodemailer": "4.0.1",
     "pushbullet": "2.0.0",
     "request": "2.86.0",
